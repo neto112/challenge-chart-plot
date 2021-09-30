@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e5e5e5;
+  color: black;
+  height: 30px;
+  padding: 10px 30px;
+}
+
+.footerBlue {
+  background-color: rgb(26, 140, 255);
+  color: white;
+  font-family: 'Arial';
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  width: 120px;
+  font-size: 11px;
+}

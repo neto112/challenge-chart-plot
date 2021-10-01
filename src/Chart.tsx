@@ -1,11 +1,13 @@
 import Chart from "react-google-charts";
 
+// Google Chats is a JavaScript library to view data
+// in various types of charts and graphs.
 const Charts = () => 
 {
   return (
     <Chart
-    width={1500}
-    height={300}
+    width={1300}
+    height={500}
     chartType="LineChart"
     loader={<div>Loading Chart</div>}
     data={[
@@ -23,10 +25,10 @@ const Charts = () =>
     ]}
     options={{
       title: "Neto's Challenge",
-      chartArea: { width: '50%' },
+      chartArea: { width: '80%' },
       hAxis: {
         title: 'Time',
-        minValue: 0,
+        minValue: 0, maxValue: 1.4
       },
     }}
     legendToggle

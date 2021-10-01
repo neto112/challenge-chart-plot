@@ -1,6 +1,7 @@
 import { MouseEventHandler } from 'react';
 import './Footer.css';
 
+// Generate Chart
 const Footer = (props: { buttonClicked: MouseEventHandler<HTMLButtonElement> | undefined; }) => {
   return (
     <div className="footer">

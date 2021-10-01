@@ -1,3 +1,14 @@
+let start, end;
+
+// getTime() method returns the number of milliseconds;
+start = new Date();
+for (let i = 0; i < 1000; i++) {
+    Math.sqrt(i);
+}
+end = new Date();
+
+console.log('Event' + (end.getTime() - start.getTime()) + ' msec ');
+
 const seconds = 60;
 const minutes = 60 * seconds;
 const hours = 60 * minutes;
@@ -29,24 +40,4 @@ export const Simulation = {
   {"type":"data", "timestamp":1519862460000, "os": "linux", "browser": "firefox", "min_response_time":0.3, "max_response_time":1.4 }
   {"type":"stop", "timestamp":151986460000}
   `,
-
-  chartSeries: [
-      {
-          name: "Series 1",
-          type: 'line',
-          data: [
-              [time1, 0.1],
-              [time2, 0.2],
-              [time3, 0.3],
-          ]
-      },
-      {
-          name: "Series 2",
-          type: 'line',
-          data: [
-              [time1, 0.5],
-              [time2, 0.6],
-              [time3, 0.7],
-          ]
-      }]
 }

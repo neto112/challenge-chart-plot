@@ -9,23 +9,23 @@ end = new Date();
 
 console.log('Event' + (end.getTime() - start.getTime()) + ' msec ');
 
-const seconds = 60;
-const minutes = 60 * seconds;
-const hours = 60 * minutes;
-const days = 24 * hours;
+// const seconds = 60;
+// const minutes = 60 * seconds;
+// const hours = 60 * minutes;
+// const days = 24 * hours;
 
-const time = {
-seconds: seconds,
-minutes: minutes,
-hours: hours,
-days: days
-}
+// const time = {
+// seconds: seconds,
+// minutes: minutes,
+// hours: hours,
+// days: days
+// }
 
-const startTime = 1519862400000;
-const interval = time.minutes;
-const time1 = startTime + 0 * interval;
-const time2 = startTime + 1 * interval;
-const time3 = startTime + 10 * interval
+// const startTime = 1519862400000;
+// const interval = time.minutes;
+// const time1 = startTime + 0 * interval;
+// const time2 = startTime + 1 * interval;
+// const time3 = startTime + 10 * interval
 
 export const Simulation = {
   dataTxt: `{"type":"start", "timestamp":1519862400000, "select" :["min_response_time", "max_response_time"], "group": ["os", "browser"]}
